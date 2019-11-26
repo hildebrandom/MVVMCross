@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TipCalculator", "TipCalculator", "{C3D9026E-BF15-484A-8ED6-D1F3BC7962CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalculator.Core", "TipCalculator.Core\TipCalculator.Core.csproj", "{16C5CD70-A56B-4535-AB4C-E304C8B54CA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TipCalculator.Core", "TipCalculator.Core\TipCalculator.Core.csproj", "{16C5CD70-A56B-4535-AB4C-E304C8B54CA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalculator.Android", "TipCalculator.Android\TipCalculator.Android.csproj", "{0166A79D-85CE-4F06-BA2C-96CCFDC31C05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,19 @@ Global
 		{16C5CD70-A56B-4535-AB4C-E304C8B54CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16C5CD70-A56B-4535-AB4C-E304C8B54CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16C5CD70-A56B-4535-AB4C-E304C8B54CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0166A79D-85CE-4F06-BA2C-96CCFDC31C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0166A79D-85CE-4F06-BA2C-96CCFDC31C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0166A79D-85CE-4F06-BA2C-96CCFDC31C05}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0166A79D-85CE-4F06-BA2C-96CCFDC31C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0166A79D-85CE-4F06-BA2C-96CCFDC31C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0166A79D-85CE-4F06-BA2C-96CCFDC31C05}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{16C5CD70-A56B-4535-AB4C-E304C8B54CA8} = {C3D9026E-BF15-484A-8ED6-D1F3BC7962CF}
+		{0166A79D-85CE-4F06-BA2C-96CCFDC31C05} = {C3D9026E-BF15-484A-8ED6-D1F3BC7962CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C18EDA27-A763-486F-8E1C-0AAB5C53F11C}
